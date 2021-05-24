@@ -1,0 +1,19 @@
+.background {
+  background-color: #060f2e;
+  padding: 25px 0;
+  border-bottom: 1px solid #551111;
+}
+
+.nav {
+  text-align: center;
+}
+
+ol {
+  width: auto;
+}
+
+.link {
+  font-size: 1.5em;
+  margin: 20px;
+  color: #DDD;
+}

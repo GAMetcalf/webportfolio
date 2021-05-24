@@ -1,0 +1,61 @@
+.intro {
+  background-image: url('poolBackground.png');
+  background-size: cover; height: 600px;
+  background-repeat: no-repeat;
+  color: #ddd;
+  padding: 50px 100px;
+}
+
+.hOne {
+  font-size: 3em;
+}
+
+.p {
+  font-size: 1.3em;
+}
+
+.hTwo {
+  margin-top: 250px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 25px;
+}
+
+.pbj {
+  background-color: #222;
+  height: 700px;
+  padding: 50px 100px;
+}
+
+.pbj > .pbjTitle {
+  color: #BF9050;
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+}
+
+.pbj > .desc {
+  text-align: center;
+}
+
+.desc {
+  color: #EFE5CA;
+}
+
+.images {
+  margin-top: 50px;
+  float: left;
+}
+
+figure {
+  max-width: calc(100%/2);
+}
