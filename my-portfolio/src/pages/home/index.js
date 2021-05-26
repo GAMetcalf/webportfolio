@@ -2,7 +2,7 @@ import styles from './home.module.css';
 import React, { Component } from 'react';
 import pallette from './pallette.png';
 import xdHome from './xdHome.png';
-import webHome from './webHome.png';
+import { Link } from 'react-router-dom'
 
 class Home extends Component {
   render() {
@@ -25,17 +25,18 @@ class Home extends Component {
           <h1 className={styles.pbjTitle}>PBandJam</h1>
           <p className={styles.desc}>I created this project for school and was tasked to used Bootstrap.</p>
           <p className={styles.desc}>This is an idea for a social networking site for musicians where they can play together in near real time.</p>
-          <p className={styles.desc}>I'm most proud of my color choices and designs in Adobe XD over the finished product,<br/>mainly because it was a lot of styling to do in a short amount of time, but I'm still proud of it.</p>
+          <p className={styles.desc}>I'm most proud of my color choices and designs in Adobe XD over the finished product,<br/>mainly because it was a lot of Bootstrap CSS to do in a short amount of time, but I'm still proud of it.</p>
           <div className={styles.images}>
             <figure>
-              <img src={xdHome} alt="PBandJam Home Page Design in Adobe XD"/>
-              <figcaption>PBandJam home design in Adobe XD</figcaption>
+              <img src={pallette} alt="PBandJam color pallette"/>
+              <figcaption>PBandJam color pallette</figcaption>
             </figure>
             <figure>
-              <img src={webHome} alt="PBandJam Website Home Page"/>
+              <img src={xdHome} alt="PBandJam Adobe XD home mockup"/>
               <figcaption>PBandJam home design in Adobe XD</figcaption>
             </figure>
           </div>
+          <Link className={styles.readmore} to="/projects/pbandjam">More PBandJam Details</Link>
         </section>
       </>
     );

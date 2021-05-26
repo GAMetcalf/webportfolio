@@ -1,0 +1,40 @@
+.pbandjam, .trivia, .shipit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.shipit {
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: #EFE5CA;
+  font-size: 2em;
+}
+
+.img {
+  max-width: 50%;
+}
+
+.readmore {
+  text-decoration: none;
+  margin-top: 20px;
+  color: #ddd;
+  background-color: #0c1d58;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all .1s ease;
+}
+
+.readmore:hover {
+  background-color: #16296e;
+  transform: scale(1.2);
+}
+
+.readmore:active:hover {
+  background-color: #0c1d58;
+  transform: scale(1.1);
+  color: #aaa
+}
