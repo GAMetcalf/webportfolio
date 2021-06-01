@@ -15,7 +15,7 @@ export default function Header() {
           <Link className={styles.link} to="/">Home</Link>
           <Link className={styles.link} to="/projects">Projects</Link>
           <Link className={styles.link} to="/contact">Contact</Link>
-          <a className={styles.link} href="https://drive.google.com/file/d/1BZwmJ5Mq3Jom96LozFiX-AXiJfXjBYff/view?usp=sharing" download="Greg Metcalf's Resume">Resume</a>
+          <a className={styles.link} href="https://drive.google.com/file/d/11AiMcnT-EGoprr-VNkUU6zqGdCzFs3kv/view?usp=sharing" download="Greg Metcalf's Resume">Resume</a>
         </ol>
       </nav>
     </header>
