@@ -2,11 +2,12 @@
 import styles from './app.module.css';
 
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 import Home from './pages/home';
 import Projects from './pages/projects';
-import Resume from './pages/resume';
+import PBandJam from './pages/projects/pbandjam';
+import Trivia from './pages/projects/trivia';
 import Contact from './pages/contact';
 
 function App() {
@@ -15,10 +16,13 @@ function App() {
       <Router>
         <Header />
         <main className={styles.content}>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects/pbandjam" component={PBandJam} />
+            <Route exact path="/projects/trivia" component={Trivia} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
         </main>
       </Router>
     </section>

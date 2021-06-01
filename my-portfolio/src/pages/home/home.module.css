@@ -2,7 +2,7 @@
   background-image: url('poolBackground.png');
   background-size: cover; height: 600px;
   background-repeat: no-repeat;
-  color: #ddd;
+  color: #EFE5CA;
   padding: 50px 100px;
 }
 
@@ -12,6 +12,7 @@
 
 .p {
   font-size: 1.3em;
+  color: #ddd;
 }
 
 .hTwo {
@@ -31,9 +32,9 @@ li {
 }
 
 .pbj {
-  background-color: #222;
   height: 700px;
   padding: 50px 100px;
+  margin-bottom: 100px;
 }
 
 .pbj > .pbjTitle {
@@ -52,10 +53,34 @@ li {
 }
 
 .images {
-  margin-top: 50px;
-  float: left;
+  margin: 50px 0;
+  display: flex;
 }
 
 figure {
   max-width: calc(100%/2);
+}
+
+img {
+  max-width: 95%;
+}
+
+figcaption {
+  color: #646464;
+}
+
+.readmore {
+  color: #EFE5CA;
+  text-decoration: none;
+  background-color: #702483;
+  border-radius: 3px;
+  padding: 5px 20px;
+  transition: all .1s ease;
+
+}
+
+.readmore:hover {
+  transform: scale(1.1);
+  font-size: 1.2em;
+  cursor: pointer;
 }

@@ -1,0 +1,44 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.section {
+  margin: 25px auto 0;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hTwo {
+  color: #EFE5CA;
+  font-size: 2em;
+  align-self: center;
+}
+
+.contact {
+  display: flex;
+  width: 50%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.icon {
+  color: #2a54e9;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
